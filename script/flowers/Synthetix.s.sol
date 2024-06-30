@@ -21,17 +21,15 @@ contract DeploySynthetixFlower is Script {
     function deploy(
         address core,
         address spot,
-        address hive
+        address existingHive
     )
         public
         returns (address)
     {
-        Hive hive = Hive(hive);
+        Synthetix flower =
+            new Synthetix({_core: core, _spot: spot, _hive: Hive(existingHive)});
 
-        Synthetix synthetix =
-            new Synthetix({_core: core, _spot: spot, _hive: hive});
-
-        return address(synthetix);
+        return address(flower);
     }
 
 }
@@ -42,7 +40,7 @@ contract DeploySynthetixFlower is Script {
 /// script/flowers/Synthetix.s.sol:DeploySynthetixFlowerBase --rpc-url
 /// $BASE_RPC_URL --etherscan-api-key $BASESCAN_API_KEY --broadcast --verify
 /// -vvvv`
-contract DeploySynthetixFlowerBase is Deploy, Base {
+contract DeploySynthetixFlowerBase is DeploySynthetixFlower, Base {
 
     function run() public broadcast returns (address synthetix) {
         synthetix = deploy(SYNTHETIX_CORE, SYNTHETIX_SPOT_MARKET, HIVE);
@@ -56,7 +54,10 @@ contract DeploySynthetixFlowerBase is Deploy, Base {
 /// script/flowers/Synthetix.s.sol:DeploySynthetixFlowerBaseSepolia --rpc-url
 /// $BASE_SEPOLIA_RPC_URL --etherscan-api-key $BASESCAN_API_KEY --broadcast
 /// --verify -vvvv`
-contract DeploySynthetixFlowerBaseSepolia is Deploy, BaseSepolia {
+contract DeploySynthetixFlowerBaseSepolia is
+    DeploySynthetixFlower,
+    BaseSepolia
+{
 
     function run() public broadcast returns (address synthetix) {
         synthetix = deploy(SYNTHETIX_CORE, SYNTHETIX_SPOT_MARKET, HIVE);

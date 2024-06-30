@@ -31,7 +31,7 @@ contract DeployHive is Script {
 /// (2) run `forge script script/hive/Hive.s.sol:DeployHiveBase --rpc-url
 /// $BASE_RPC_URL --etherscan-api-key $BASESCAN_API_KEY --broadcast --verify
 /// -vvvv`
-contract DeployHiveBase is Deploy, Base {
+contract DeployHiveBase is DeployHive, Base {
 
     function run() public broadcast returns (address hive) {
         hive = deploy(USDC);
@@ -44,7 +44,7 @@ contract DeployHiveBase is Deploy, Base {
 /// (2) run `forge script script/hive/Hive.s.sol:DeployHiveBaseSepolia --rpc-url
 /// $BASE_SEPOLIA_RPC_URL --etherscan-api-key $BASESCAN_API_KEY --broadcast
 /// --verify -vvvv`
-contract DeployHiveBaseSepolia is Deploy, BaseSepolia {
+contract DeployHiveBaseSepolia is DeployHive, BaseSepolia {
 
     function run() public broadcast returns (address hive) {
         hive = deploy(USDC);

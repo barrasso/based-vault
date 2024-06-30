@@ -1,15 +1,17 @@
 {
-    "Deployer": {
-        "Address": "0xE31C5e4AA24A990C6F20C3287392f3F986b4828A",
-        "ENS": "honeycombfi.eth"
-    },
-    "Owner": {
-        "Address": "0xE31C5e4AA24A990C6F20C3287392f3F986b4828A",
-        "EMS": "honeycombfi.eth"
-    },
-    "Hive": "",
-    "Flowers": {
-        "Synthetix": "",
-        "Panoptic": ""
+    "Paris": {
+        "Deployer": {
+            "Address": "0xE31C5e4AA24A990C6F20C3287392f3F986b4828A",
+            "ENS": "honeycombfi.eth"
+        },
+        "Owner": {
+            "Address": "0xE31C5e4AA24A990C6F20C3287392f3F986b4828A",
+            "EMS": "honeycombfi.eth"
+        },
+        "Hive": "0xc5780188522E125177B6c03625204d0aA832D440",
+        "Flowers": {
+            "Synthetix": "",
+            "Panoptic": ""
+        }
     }
 }
