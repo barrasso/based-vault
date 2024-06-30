@@ -7,7 +7,7 @@ import {Flower} from "../Flower.sol";
 import {ISynthetix} from "./ISynthetix.sol";
 
 /// @title Synthetix Flower
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @author Jared Borders
 contract Synthetix is Flower {
 

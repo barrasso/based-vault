@@ -3,7 +3,7 @@ pragma solidity >=0.8.0;
 
 /// @notice Deploy to deterministic addresses without an initcode factor
 /// @author Solmate
-/// @author Apiary
+/// @author Honeycomb Finance
 library CREATE3 {
 
     error DeploymentFailed();

@@ -3,7 +3,7 @@ pragma solidity 0.8.26;
 
 /// @title Cosolidated Errors from Synthetix v3 contracts
 /// @notice Used ONLY for testing purposes
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @author Jared Borders
 contract SynthetixErrors {
 

@@ -4,7 +4,7 @@ pragma solidity 0.8.26;
 /// @notice Modern and gas efficient ERC20 + EIP-2612 implementation.
 /// @author Solmate
 /// @author Uniswap
-/// @author Apiary
+/// @author Honeycomb Finance
 contract ERC20 {
 
     /*//////////////////////////////////////////////////////////////

@@ -7,7 +7,7 @@ import {ERC20} from "./tokens/ERC20.sol";
 import {ERC4626} from "./tokens/ERC4626.sol";
 
 /// @title Hive
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @author Jared Borders
 contract Hive is ERC4626, Owned(msg.sender) {
 

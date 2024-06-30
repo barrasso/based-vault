@@ -7,7 +7,7 @@ import {ERC20} from "./ERC20.sol";
 
 /// @notice Minimal ERC4626 tokenized Vault implementation.
 /// @author Solmate
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @custom:todo Prevent ERC4626 inflation attacks
 contract ERC4626 is ERC20 {
 

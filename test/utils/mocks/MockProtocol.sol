@@ -5,7 +5,7 @@ import {ERC20} from "../../../src/tokens/ERC20.sol";
 import {MockToken} from "./MockToken.sol";
 
 /// @title Mock Protocol
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @author Jared Borders
 contract MockProtocol {
 

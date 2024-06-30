@@ -7,7 +7,7 @@ import {Flower} from "../Flower.sol";
 import {IPanoptic} from "./IPanoptic.sol";
 
 /// @title Panoptic Flower
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @author Jared Borders
 contract Panoptic is Flower {
 

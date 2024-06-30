@@ -4,7 +4,7 @@ pragma solidity ^0.8.26;
 /// @notice Arithmetic library with operations for fixed-point numbers.
 /// @author Solmate
 /// @author Inspired by USM
-/// @author Apiary
+/// @author Honeycomb Finance
 library FixedPointMathLib {
 
     /*//////////////////////////////////////////////////////////////

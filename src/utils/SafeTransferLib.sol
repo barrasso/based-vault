@@ -6,7 +6,7 @@ import {ERC20} from "../tokens/ERC20.sol";
 /// @notice Safe ETH and ERC20 transfer library that gracefully handles missing
 /// return values.
 /// @author Solmate
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @dev Use with caution! Some functions in this library knowingly create dirty
 /// @dev Observe that none of the functions in this library check that a token
 /// has code at all! That responsibility is delegated to the caller.

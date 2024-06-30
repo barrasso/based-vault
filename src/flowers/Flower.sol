@@ -6,7 +6,7 @@ import {Owned} from "../auth/Owned.sol";
 import {ERC20} from "../tokens/ERC20.sol";
 
 /// @title Flower
-/// @author Apiary
+/// @author Honeycomb Finance
 abstract contract Flower is Owned(msg.sender) {
 
     /// @notice Hive contract

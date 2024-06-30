@@ -5,7 +5,7 @@ import {ERC20, Flower, Hive} from "../../../src/flowers/Flower.sol";
 import {MockProtocol} from "./MockProtocol.sol";
 
 /// @title Panoptic Flower
-/// @author Apiary
+/// @author Honeycomb Finance
 /// @author Jared Borders
 contract MockFlower is Flower {
 

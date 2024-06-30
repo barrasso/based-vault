@@ -2,7 +2,7 @@
 pragma solidity 0.8.26;
 
 /// @author Solady
-/// @author Apiary
+/// @author Honeycomb Finance
 library StringLib {
 
     function concat(

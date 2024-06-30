@@ -1,4 +1,12 @@
 {
+    "Deployer": {
+        "Address": "0xE31C5e4AA24A990C6F20C3287392f3F986b4828A",
+        "ENS": "honeycombfi.eth"
+    },
+    "Owner": {
+        "Address": "0xE31C5e4AA24A990C6F20C3287392f3F986b4828A",
+        "EMS": "honeycombfi.eth"
+    },
     "Hive": "",
     "Flowers": {
         "Synthetix": "",
