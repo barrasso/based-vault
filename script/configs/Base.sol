@@ -3,7 +3,7 @@ pragma solidity 0.8.26;
 
 contract Base {
 
-    address constant HIVE = address(0);
+    address constant HIVE = 0xab38a1FDfbE9d456457416FAE7f0ef7696E59293;
     address constant USDC = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
     address constant SYNTHETIX_CORE = 0x32C222A9A159782aFD7529c87FA34b96CA72C696;
     address constant SYNTHETIX_SPOT_MARKET =
